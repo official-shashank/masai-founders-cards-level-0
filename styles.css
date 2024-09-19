@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+   
+    /* background: #dcdbdb; */
+    box-shadow: 21px 16px 50px -3px rgba(0,0,0,0.3);
+    border-radius: 1rem;
+}
+
+.card >img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+    flex-direction: column;
+}
+
+
+.details>img{
+    width: 10rem;
+    height: 5rem;
+    object-fit: contain;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 1.1rem;
+}
+
+
